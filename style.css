@@ -194,7 +194,7 @@ body {
 
 /*Projects*/
 
-.projects{
+.projects {
     color: #fff;
 }
 
@@ -222,9 +222,9 @@ body {
 .card {
     background-color: #c5c5c5;
     width: 250px;
-    height: 330px;
+    height: 350px;
     border-radius: 10px;
-    margin: 16px;
+    margin: 12px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
