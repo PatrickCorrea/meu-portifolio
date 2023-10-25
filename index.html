@@ -13,26 +13,27 @@
 </head>
 
 <body>
+    <header class="header">
+        <div class="navegacao">
+            <a href="#home" class="logo">Patrick Corrêa</a>
+            <ul class="nav-link">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">SOBRE</a></li>
+                <li><a href="#projects">PROJETOS</a></li>
+                <li><a href="#contacts">CONTATOS</a></li>
+            </ul>
+        </div>
+    </header>
 
     <div class="container">
-
         <section class="home" id="home">
-            <div class="navegacao">
-                <a href="#home" class="logo">Patrick Corrêa</a>
-                <ul class="nav-link">
-                    <li><a href="#home">HOME</a></li>
-                    <li><a href="#about">SOBRE</a></li>
-                    <li><a href="#projects">PROJETOS</a></li>
-                    <li><a href="#contacts">CONTATOS</a></li>
-                </ul>
-            </div>
-
             <div class="wellcome">
-                <h1>Bem vindo ao meu website</h1>
-                <h2> Desenvolvedor Front-End</h2>
-                <a href="#contacts">Contatos</a>
+                <div class="text-wellcome">
+                    <h1>Bem vindo ao meu <span class="color-wellcome">website</span></h1>
+                    <h2> Desenvolvedor <span class="front">Front</span>-<span class="end">End</span></h2>
+                    <a href="#contacts">Contatos</a>
+                </div>
             </div>
-
         </section>
 
         <section class="about" id="about">
@@ -48,9 +49,11 @@
                         <h3>Front-end developer</h3>
                         <p>Olá, me chamo Patrick, tenho 25 anos e sou desenvolvedor Front End.
                             Tenho experiências e conhecimentos criando aplicações web em tecnologias
-                            como: HTML, CSS, JAVASCRIPT e REACT.JS . Tenho como foco  continuar atuando e me especializando cada vez mais na área de Front End, e além do conhecimento técnico nas tecnologias citadas 
-                            já desenvolvi diversos projetos práticos com elas. 
-                            </p>
+                            como: HTML, CSS, JAVASCRIPT e REACT.JS . Tenho como foco continuar atuando e me
+                            especializando cada vez mais na área de Front End, e além do conhecimento técnico nas
+                            tecnologias citadas
+                            já desenvolvi diversos projetos práticos com elas.
+                        </p>
                         <div class="tec-container">
                             <ul class="tec-list">
                                 <li>
@@ -66,22 +69,24 @@
                                     <img class="image-tec" src="./assets/react-incon.png" alt="">
                                 </li>
                             </ul>
+                            <hr class="line">
                         </div>
-                        <a href="https://github.com/PatrickCorrea" target="_blank" class="button-social">
-                            Linkedin
-                            <img src="./assets/linkedin-icon.png" alt="linkedin">
-                        </a>
-                        <a href="https://github.com/PatrickCorrea" target="_blank" class="button-social">
-                            Github
-                            <img src="./assets/github-icon.png" alt="github">
-                        </a>
+                        <div class="social-links">
+                            <a href="https://github.com/PatrickCorrea" target="_blank" class="button-social">
+                                Linkedin
+                                <img src="./assets/linkedin-icon.png" alt="linkedin">
+                            </a>
+                            <a href="https://github.com/PatrickCorrea" target="_blank" class="button-social">
+                                Github
+                                <img src="./assets/github-icon.png" alt="github">
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
         <section class="card-section" id="projects">
-
             <h2 class="projects">PROJETOS</h2>
 
             <div class="card-container">
@@ -163,9 +168,19 @@
                         <a href="https://github.com/PatrickCorrea/smart-bank" target="_blank">Ver código</a>
                     </div>
                 </div>
+                <div class="card">
+                    <div class="card-content">
+                        <img src="./assets/imc.png" alt="logo">
+                        <h5>Calculadora IMC</h5>
+                        <p>Aplicação de uma calculadora imc, onde recebe os parametros nos inputs e efetua o calculo
+                            do
+                            resultado.Aplicação criada com Html,Css e Javascript e totalmente responsiva.</p>
+                        <a href="https://patrickcorrea.github.io/calculadora-imc/" target="_blank">Ver projeto</a>
+                        <a href="https://github.com/PatrickCorrea/calculadora-imc" target="_blank">Ver código</a>
+                    </div>
+                </div>
             </div>
         </section>
-
         <footer class="footer" id="contacts">
             <div class="footer-container">
                 <ul>
